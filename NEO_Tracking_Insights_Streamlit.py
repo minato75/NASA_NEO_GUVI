@@ -10,7 +10,7 @@ def get_connection():
     connection = mysql.connector.connect(
         host="gateway01.eu-central-1.prod.aws.tidbcloud.com",
         user="m5Xt4HUDrniTj1o.root",
-        password="JhWWCZgwpY56epBA",
+        password="NA",
         database="NEO",          
         ssl_verify_cert=False,                  # Optional: disable if cert verification fails
         ssl_disabled=False                      # TiDB requires SSL
